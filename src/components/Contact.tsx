@@ -44,30 +44,6 @@ export default function Contact() {
               </p>
             </div>
 
-            <div className="space-y-4">
-              <div className="flex items-center space-x-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-blue-500/10 rounded-lg flex items-center justify-center border border-blue-500/20">
-                  <Mail className="text-blue-400" size={20} />
-                </div>
-                <div>
-                  <p className="font-medium text-slate-200">Email</p>
-                  <a href="mailto:harrisonmanoela@gmail.com" className="text-emerald-400 hover:text-emerald-300">
-                    harrisonmanoela@gmail.com
-                  </a>
-                </div>
-              </div>
-
-              <div className="flex items-center space-x-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-blue-500/10 rounded-lg flex items-center justify-center border border-blue-500/20">
-                  <MapPin className="text-blue-400" size={20} />
-                </div>
-                <div>
-                  <p className="font-medium text-slate-200">Localização</p>
-                  <p className="text-slate-400">Rio de Janeiro, RJ (Disponível para trabalho remoto)</p>
-                </div>
-              </div>
-            </div>
-
             <div>
               <h4 className="font-medium text-slate-200 mb-4">Redes Sociais</h4>
               <div className="flex space-x-4">

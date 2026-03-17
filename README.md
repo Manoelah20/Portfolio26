@@ -61,7 +61,7 @@ npm run dev
 
 ## 🎨 Personalização
 
-### Alterar Informações Pessoais
+### Alterar Pessoais
 
 1. **Nome e Título**: Edite os componentes `Navbar.tsx`, `Hero.tsx` e `Footer.tsx`
 2. **Informações de Contato**: Atualize `Contact.tsx` e `Footer.tsx`

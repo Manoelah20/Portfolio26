@@ -76,21 +76,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div>
-            <h4 className="text-lg font-semibold mb-4">Informações de Contato</h4>
-            <ul className="space-y-2 text-slate-400">
-              <li>
-                <div className="space-y-1">
-                  <a href="mailto:harrisonmanoela@gmail.com" className="hover:text-blue-400 transition-colors">
-                    harrisonmanoela@gmail.com
-                  </a>
-                </div>
-              </li>
-              <li>Rio de Janeiro, RJ (Disponível para trabalho remoto)</li>
-            </ul>
-          </div>
-        </div>
-
         <div className="border-t border-slate-800 mt-8 pt-8 text-center">
           <div className="flex flex-col sm:flex-row justify-between items-center">
             <p className="text-slate-400 text-sm mb-4 sm:mb-0">
@@ -110,3 +95,4 @@ export default function Footer() {
     </footer>
   );
 }
+

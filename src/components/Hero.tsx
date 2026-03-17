@@ -101,10 +101,10 @@ export default function Hero() {
               <span>Projetos</span>
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://linkedin.com/in/manoelaharrison" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="btn-secondary inline-flex items-center gap-2 px-8 py-4"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white font-semibold rounded-xl transition-all duration-200 shadow-lg hover:shadow-cyan-500/25"
             >
               <span className="text-cyan-400">🔗</span>
               <span>LinkedIn</span>
