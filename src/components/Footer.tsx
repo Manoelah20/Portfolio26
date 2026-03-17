@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <footer className="bg-slate-900/50 border-t border-slate-800 text-slate-300 py-12">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
             <h3 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent mb-4">
               Manoela de Araujo Cuntin Harrison
@@ -75,6 +75,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
+        </div>
 
         <div className="border-t border-slate-800 mt-8 pt-8 text-center">
           <div className="flex flex-col sm:flex-row justify-between items-center">
@@ -95,4 +96,5 @@ export default function Footer() {
     </footer>
   );
 }
+
 
