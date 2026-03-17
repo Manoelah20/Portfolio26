@@ -23,7 +23,7 @@ export default function Hero() {
           <div className="relative inline-block">
             <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-full blur-xl opacity-50"></div>
             <img 
-              src="/public/mhpro.jpeg" 
+              src="./mhpro.jpeg" 
               alt="Manoela Harrison - Desenvolvedora Frontend"
               className="relative w-40 h-40 md:w-48 md:h-48 rounded-full object-cover border-4 border-slate-800 shadow-2xl"
             />
