@@ -1,6 +1,6 @@
-# Portfolio Pessoal
+# Portfolio Manoela Harrison
 
-Um portfolio moderno e responsivo construído com React, TypeScript e TailwindCSS.
+Portfólio profissional desenvolvido com React, TypeScript e Tailwind CSS.
 
 ## 🚀 Tecnologias Utilizadas
 
