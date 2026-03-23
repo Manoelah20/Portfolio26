@@ -2,7 +2,80 @@
 
 ## 🚀 Deploy Online
 
-**Site publicado em:** [portfolio26-mhtech]
+**Site publicado em:** Portfolio - Manoela Harrison
+🚀 Deploy Online
+Site publicado em: [https://portfolio26-mhtech.vercel.app]
+
+📋 Sobre o Projeto
+Portfólio profissional desenvolvido em HTML/CSS puro para apresentação de habilidades e experiência como Desenvolvedora Front-End. O design é focado em clareza, profissionalismo e otimizado para impressão.
+
+✨ Características
+Design Responsivo: Adaptável para diferentes dispositivos
+Otimizado para Impressão: Formatação especial para PDF
+Performance Alta: Carregamento rápido com CSS embutido
+Acessibilidade: Estrutura semântica HTML5
+SEO Amigável: Meta tags e organização de conteúdo
+🛠️ Tecnologias
+HTML5 - Estrutura semântica
+CSS3 - Estilização com variáveis CSS
+Media Queries - Design responsivo e impressão
+Flexbox/Grid - Layout moderno
+📁 Estrutura do Projeto
+portfolio/
+├── index.html          # Página principal do portfólio
+├── vercel.json        # Configuração de deploy Vercel
+├── README.md          # Documentação do projeto
+└── assets/            # (futuro) imagens e recursos
+🎨 Seções do Portfólio
+Cabeçalho - Informações de contato
+Perfil Profissional - Resumo da carreira
+Habilidades Técnicas - Core Stack e competências
+Projetos em Destaque - Portfólio de projetos
+Educação - Formação acadêmica
+Experiência Profissional - Histórico de trabalho
+🚀 Deploy
+Vercel (Atual)
+Configurado com vercel.json para sites estáticos
+Deploy automático a cada push
+URL: https://portf-lio2026.vercel.app
+Alternativas de Deploy
+Netlify: Arrastar e soltar arquivo HTML
+GitHub Pages: Ativar Pages no repositório
+Render: Static Site hosting
+📱 Como Usar
+Clone o repositório:
+git clone https://github.com/Manoelah20/portfolio26-mhtech.git
+
+Abra o arquivo:
+
+# Navegue para a pasta
+cd portfolio26-mhtech
+
+# Abra no navegador
+# Ou use um servidor local:
+python -m http.server 8000
+# ou
+npx serve .
+Personalize:
+
+Edite index.html com suas informações
+Modifique cores CSS nas variáveis :root
+Adicione/remova projetos conforme necessário
+🎯 Objetivo
+Portfólio desenvolvido para aplicações em vagas de:
+
+Desenvolvedora Front-End Júnior/Pleno
+React Developer
+TypeScript Developer
+Next.js Developer
+📞 Contato
+Email: harrisonmanoela@gmail.com
+LinkedIn: linkedin.com/in/manoelaharrison
+GitHub: github.com/Manoelah20
+📄 Licença
+Este projeto está disponível para uso e modificação sob licença MIT.
+
+Desenvolvido com ❤️ por Manoela Harrison
 
 ## 📋 Sobre o Projeto
 
@@ -47,7 +120,7 @@ portfolio/
 ### Vercel (Atual)
 - Configurado com `vercel.json` para sites estáticos
 - Deploy automático a cada push
-- URL: `https://portf-lio2026.vercel.app`
+- URL: https://portfolio26-mhtech.vercel.app
 
 ### Alternativas de Deploy
 - **Netlify**: Arrastar e soltar arquivo HTML
@@ -58,7 +131,7 @@ portfolio/
 
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/Manoelah20/Portf-lio2026.git
+  git clone https://github.com/Manoelah20/portfolio26-mhtech.git
    ```
 
 2. **Abra o arquivo:**
