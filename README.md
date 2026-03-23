@@ -2,7 +2,7 @@
 
 ## 🚀 Deploy Online
 
-**Site publicado em:** [https://portf-lio2026.vercel.app](https://portf-lio2026.vercel.app)
+**Site publicado em:** [portfolio26-mhtech]
 
 ## 📋 Sobre o Projeto
 
