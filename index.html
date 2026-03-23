@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Manoela Harrison - Front-End Developer</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --accent: #27ae60;
+            --text: #333;
+            --light-bg: #f4f7f6;
+            --white: #ffffff;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.5;
+            color: var(--text);
+            background: linear-gradient(135deg, #434343 0%, #000000 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        @media print {
+            body { padding: 0; background: white; }
+            .page {
+                width: 210mm;
+                min-height: 297mm;
+                margin: 0;
+                padding: 15mm;
+                page-break-after: always;
+                box-shadow: none;
+            }
+            .no-print { display: none; }
+            * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+        }
+
+        .page {
+            background: var(--white);
+            max-width: 850px;
+            margin: 0 auto 20px auto;
+            padding: 40px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        header {
+            border-bottom: 2px solid var(--accent);
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header-info h1 {
+            color: var(--primary);
+            font-size: 2.2em;
+            text-transform: uppercase;
+        }
+
+        .header-info h2 {
+            color: var(--accent);
+            font-weight: normal;
+            font-size: 1.2em;
+        }
+
+        .contact-info { text-align: right; font-size: 0.85em; }
+        .contact-info p a { color: var(--text); text-decoration: none; font-weight: 500; }
+
+        h3.section-title {
+            color: var(--primary);
+            text-transform: uppercase;
+            border-left: 5px solid var(--accent);
+            padding-left: 12px;
+            margin: 25px 0 12px 0;
+            font-size: 1.1em;
+        }
+
+        .profile-summary { font-size: 0.95em; color: #444; text-align: justify; }
+
+        .skills-container { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
+        .skill-category h4 { margin-bottom: 10px; font-size: 0.9em; color: var(--primary); }
+        
+        .skill-item { margin-bottom: 8px; }
+        .skill-name { font-size: 0.85em; display: flex; justify-content: space-between; margin-bottom: 2px; }
+        .skill-bar { background: #eee; border-radius: 5px; height: 6px; width: 100%; overflow: hidden; }
+        .skill-progress { background: var(--accent); height: 100%; }
+
+        .skill-list { display: flex; flex-wrap: wrap; gap: 6px; list-style: none; }
+        .skill-tag { 
+            background: #eafaf1; border: 1px solid var(--accent); 
+            padding: 3px 8px; border-radius: 4px; font-size: 0.75em; color: var(--accent); font-weight: bold;
+        }
+
+        .project-item {
+            background: #fff; border: 1px solid #eee; padding: 15px;
+            border-radius: 6px; margin-bottom: 15px; page-break-inside: avoid;
+        }
+        .vaga-highlight { border-left: 4px solid var(--accent); background: #f9fffb; }
+        .project-header { display: flex; justify-content: space-between; margin-bottom: 5px; }
+        .project-title { color: var(--primary); font-weight: bold; font-size: 1em; }
+        .project-links a { color: var(--accent); font-size: 0.85em; text-decoration: underline; }
+        .project-description { font-size: 0.88em; margin: 5px 0; color: #555; }
+        .project-tech { font-size: 0.8em; color: #777; font-weight: 500; }
+
+        footer { text-align: center; font-size: 0.75em; color: #999; margin-top: 20px; }
+    </style>
+</head>
+<body>
+
+    <div class="page">
+        <header>
+            <div class="header-info">
+                <h1>Manoela Harrison</h1>
+                <h2>Desenvolvedora Front-End</h2>
+            </div>
+            <div class="contact-info">
+                <p>Rio de Janeiro, RJ</p>
+                <p><a href="mailto:harrisonmanoela@gmail.com">harrisonmanoela@gmail.com</a></p>
+                <p><a href="https://linkedin.com/in/manoelaharrison" target="_blank" rel="noopener noreferrer">linkedin.com/in/manoelaharrison</a></p>
+                <p><a href="https://github.com/Manoelah20" target="_blank" rel="noopener noreferrer">github.com/Manoelah20</a></p>
+            </div>
+        </header>
+
+        <section>
+            <h3 class="section-title">Perfil Profissional</h3>
+            <div class="profile-summary">
+                <p>Desenvolvedora Front-End em transição de carreira, com background de 18 anos em gestão e análise de dados na saúde. Especialista no ecossistema <strong>React, Next.js e TypeScript</strong>, com foco em interfaces de alta performance e acessibilidade. Experiência em transformar requisitos complexos em componentes escaláveis, unindo maturidade analítica à agilidade técnica.</p>
+            </div>
+        </section>
+
+        <section>
+            <h3 class="section-title">Habilidades Técnicas</h3>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h4>Core Stack</h4>
+                    <div class="skill-item">
+                        <div class="skill-name"><span>React / Next.js</span><span>90%</span></div>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 90%;"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name"><span>TypeScript / JavaScript ES6+</span><span>85%</span></div>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 85%;"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name"><span>HTML5 / CSS3 (Tailwind / Styled)</span><span>95%</span></div>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 95%;"></div></div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h4>Habilidades Complementares</h4>
+                    <ul class="skill-list">
+                        <li class="skill-tag">Visualização de Dados (Charts/D3)</li>
+                        <li class="skill-tag">Integração de APIs REST</li>
+                        <li class="skill-tag">Clean Code</li>
+                        <li class="skill-tag">Metodologias Ágeis</li>
+                        <li class="skill-tag">UI/UX Design</li>
+                        <li class="skill-tag">Testes (Jest)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h3 class="section-title">Projetos em Destaque</h3>
+
+            <div class="project-item vaga-highlight">
+                <div class="project-header">
+                    <span class="project-title">InvestSimple - Dashboard de Ativos</span>
+                </div>
+                <p class="project-description">Plataforma de visualização de dados financeiros. Focada em <strong>Data Visualization</strong>, processa informações complexas e as apresenta através de gráficos dinâmicos para suporte à decisão.</p>
+                <p class="project-tech">Tecnologias: React, TypeScript, Recharts, Styled Components, API REST.</p>
+            </div>
+
+            <div class="project-item">
+                <div class="project-header">
+                    <span class="project-title">FinderBox - Integração de Repositórios</span>
+                </div>
+                <p class="project-description">Aplicação focada no <strong>consumo de APIs externas</strong>. Implementa busca em tempo real, tratamento de estados assíncronos e filtragem dinâmica de dados.</p>
+                <p class="project-tech">Tecnologias: React, Axios, Hooks (UseState/UseEffect), Git API.</p>
+            </div>
+
+            <div class="project-item">
+                <div class="project-header">
+                    <span class="project-title">Bel Radar - Monitoramento Imobiliário</span>
+                </div>
+                <p class="project-description">Interface escalável para monitoramento geográfico. Focada em <strong>arquitetura de componentes reutilizáveis</strong> e organização de grandes volumes de informação.</p>
+                <p class="project-tech">Tecnologias: React, Next.js, TypeScript, Componentização.</p>
+            </div>
+
+            <div class="project-item">
+                <div class="project-header">
+                    <span class="project-title">Gerador de Senhas</span>
+                </div>
+                <p class="project-description">Aplicação para geração de senhas seguras com <strong>personalização de critérios</strong>. Implementa validações em tempo real e interface intuitiva para configuração de parâmetros de segurança.</p>
+                <p class="project-tech">Tecnologias: React, JavaScript ES6+, CSS3, Local Storage.</p>
+            </div>
+        </section>
+    </div>
+
+    <div class="page">
+        <section>
+            <h3 class="section-title">Educação e Certificações</h3>
+            
+            <div class="project-item">
+                <strong>Tecnologia em Sistemas para Internet</strong> | Senac EAD
+                <p class="project-tech">Graduação tecnológica com foco em desenvolvimento e infraestrutura web (Concluído em 10/2025).</p>
+            </div>
+            <div class="project-item">
+                <strong>Graduação e Pós-Graduação em Nutrição</strong> | Santa Úrsula / UFF
+                <p class="project-tech">Formação em análise científica, metodologia de pesquisa e gestão de processos aplicados à saúde.</p>
+            </div>
+        </section>
+
+        <section>
+            <h3 class="section-title">Experiência Profissional</h3>
+            <div class="project-item">
+                <div class="project-header">
+                    <strong>Desenvolvedora Front-End (Freelancer / Projetos)</strong>
+                    <span>2025 - Atual</span>
+                </div>
+                <p class="project-description">Desenvolvimento de interfaces modernas e funcionais, com foco em React e Next.js para soluções corporativas e MVPs.</p>
+            </div>
+            <div class="project-item">
+                <div class="project-header">
+                    <strong>Intern Developer - Bel Radar</strong>
+                    <span>2025 - Atual</span>
+                </div>
+                <p class="project-description">Desenvolvimento de interface para monitoramento imobiliário como Frontend Júnior. Implementação de componentes reutilizáveis com <strong>TypeScript</strong>, <strong>Next.js</strong> e <strong>Tailwind CSS</strong>, integração com APIs de dados geográficos e otimização de performance.</p>
+            </div>
+            <div class="project-item">
+                <div class="project-header">
+                    <strong>Gestão e Análise Estratégica</strong>
+                    <span>2002 - 2023</span>
+                </div>
+                <p class="project-description">Mais de duas décadas de liderança em ambientes técnicos, consolidando competências em resolução de problemas complexos e análise sistêmica de dados.</p>
+            </div>
+        </section>
+
+        <footer>
+            <p>Manoela Harrison | Portfólio 2026 | Gerado via Código-Fonte (HTML/CSS)</p>
+        </footer>
+    </div>
+</body>
+</html>
